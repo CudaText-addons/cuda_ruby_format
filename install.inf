@@ -1,0 +1,21 @@
+[info]
+title=Ruby Format
+desc=Formats source code for Ruby lexer
+type=cudatext-plugin
+subdir=cuda_ruby_format
+
+[item1]
+section=commands
+caption=Ruby Format\Format
+method=run
+lexers=Ruby
+
+[item2]
+section=commands
+caption=Ruby Format\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=Ruby Format\Configure (local)
+method=config_local
